@@ -1,0 +1,36 @@
+{
+	"name": "Evil Invader",
+	"short_name": "Evil Invader",
+	"description": "Evil Invader is an exciting online top-down shooter game. In Evil Invader, you will face off against hordes of enemies, using your skills and quick reflexes to survive. With challenging gameplay and a variety of weapons and power-ups to choose from, Evil Invader is a game that will keep you coming back for more!",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"background_color": "#ffffff",
+	"icons": [
+		{
+			"src": "icons/icon-16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-114.png",
+			"sizes": "114x114",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		}
+	]
+}

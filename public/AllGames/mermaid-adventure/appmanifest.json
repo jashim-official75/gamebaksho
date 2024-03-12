@@ -1,0 +1,36 @@
+{
+	"name": "Mermaid Adventure",
+	"short_name": "Mermaid Adventure",
+	"description": "As a mermaid, you explore the underwater world and swim through stunning coral reefs. Collect magical shells and use them to power up your abilities. Meet friendly sea creatures along the way who will help you on your journey. Mermaid Adventure is an exciting online game for kids of all ages!",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "portrait",
+	"background_color": "#ffffff",
+	"icons": [
+		{
+			"src": "icons/icon-16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-114.png",
+			"sizes": "114x114",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		}
+	]
+}

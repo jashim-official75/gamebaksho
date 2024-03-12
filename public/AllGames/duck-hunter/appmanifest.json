@@ -1,0 +1,36 @@
+{
+	"name": "Duck Hunter",
+	"short_name": "Duck Hunter",
+	"description": "The Duck Hunter Hunt Game will be a blast! You have to take down ducks as they pop up on your screen, with the help of a loyal pooch. In the Duck Hunt Game, you have fun while you hunt ducks! The goal is to shoot the ducks that show up on your screen, with the help of a dog. The Duck Hunt Game will be a fun way to spend some time! In the game, you will have to shoot ducks that show up on your screen. The dog will be helpful in this activity.",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"background_color": "#ffffff",
+	"icons": [
+		{
+			"src": "icons/icon-16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-114.png",
+			"sizes": "114x114",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		}
+	]
+}

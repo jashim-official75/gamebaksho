@@ -1,0 +1,36 @@
+{
+	"name": "Air Simulator",
+	"short_name": "Air Simulator",
+	"description": "Looking for a fun and challenging online game? Look no further than Air Simulator. In this game, you'll take control of an aircraft and fly through a variety of different landscapes. With beautiful graphics and smooth game play, Air Simulator is sure to keep you entertained for hours on end. So what are you waiting for? Give it a try today!",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "portrait",
+	"background_color": "#ffffff",
+	"icons": [
+		{
+			"src": "icons/icon-16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-114.png",
+			"sizes": "114x114",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		}
+	]
+}

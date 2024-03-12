@@ -1,0 +1,36 @@
+{
+	"name": "Skibidi Toilet vs Camer Man",
+	"short_name": "Skibidi Toilet vs Camer Man",
+	"description": "Skibidi Toilet vs Camera Man A shooting game is a fun and challenging game that is perfect for players of all ages. It is a great game to play with friends or family, and it is sure to provide hours of entertainment.",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"background_color": "#ffffff",
+	"icons": [
+		{
+			"src": "icons/icon-16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-114.png",
+			"sizes": "114x114",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		}
+	]
+}

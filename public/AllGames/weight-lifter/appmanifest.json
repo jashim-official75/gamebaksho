@@ -1,0 +1,36 @@
+{
+	"name": "Weightlifter",
+	"short_name": "Weightlifter",
+	"description": "Being a weightlifter is all about managing your weight and keeping your balance. So what better way to stay on top of your game than by playing Weightlifter Online, the free weight-management game? In Weightlifter Online, you'll need to use all of your skills to keep your avatar from becoming overweight. You'll also need to stay on top of the leaderboard by monitoring your progress and comparing it to other players.",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"background_color": "#ffffff",
+	"icons": [
+		{
+			"src": "icons/icon-16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-114.png",
+			"sizes": "114x114",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		}
+	]
+}

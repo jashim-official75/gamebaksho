@@ -1,0 +1,36 @@
+{
+	"name": "Save The Egg",
+	"short_name": "Save The Egg",
+	"description": "Save the Egg online is an entertaining action game where you have to save a chicken egg that got hit by a truck. Jump through various obstacles in its way and take it as far as possible! Collect the coins and golden eggs along the path and invest those earned capital into upgrades to your truck, egg, or even better - both! Play Free Games at the best festival in town, Save the Egg Online Free game and have fun with our free games. Are you still looking for the best free online games to play? ",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "any",
+	"background_color": "#ffffff",
+	"icons": [
+		{
+			"src": "icons/icon-16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-114.png",
+			"sizes": "114x114",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		}
+	]
+}

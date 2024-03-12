@@ -1,0 +1,41 @@
+{
+	"name": "Survival Monk",
+	"short_name": "Survival Monk",
+	"description": "Survival Monk - Jumping Monkey Adventure is a Collect banana and survive in this online jumping monkey arcade game. Are you ready to join the Survival Monk in his epic adventure? In this online jumping monkey arcade game, your mission is to collect as many bananas as possible while avoiding obstacles. With intuitive controls and addictive gameplay, Survival Monk is the perfect game to play anytime, anywhere.",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"background_color": "#ffffff",
+	"icons": [
+		{
+			"src": "icons/icon-16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-64.png",
+			"sizes": "64x64",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}

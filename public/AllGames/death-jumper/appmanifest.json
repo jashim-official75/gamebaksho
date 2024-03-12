@@ -1,0 +1,36 @@
+{
+	"name": "Death Jumper",
+	"short_name": "Death Jumper",
+	"description": "\"Death Jumper\" is an online adventure horror game that puts you in the shoes of a jumper who has to navigate through a series of deadly jumps. The Death Jumper Online Jump Adventure Horror game is a title that is sure to send chills down your spine.  Death Jumper is an online jump adventure horror game. Death Jumper Online is an online jump adventure horror game that will keep you on the edge of your seat. With exciting gameplay and a suspenseful story, this game will keep you entertained for hours.",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "portrait",
+	"background_color": "#ffffff",
+	"icons": [
+		{
+			"src": "icons/icon-16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-114.png",
+			"sizes": "114x114",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		}
+	]
+}

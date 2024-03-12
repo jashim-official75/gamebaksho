@@ -1,0 +1,36 @@
+{
+	"name": "Pile of Poo",
+	"short_name": "Pile of Poo",
+	"description": "\"Get ready for an out-of-this-world experience with Pile of Poo Force! With fast-paced, tactical gameplay, a wide range of weapons, and the ability to pilot powerful mechs, this shooter game will keep you on the edge of your seat. Play with friends and work together to complete objectives and defend key strategic points.",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"background_color": "#ffffff",
+	"icons": [
+		{
+			"src": "icons/icon-16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-114.png",
+			"sizes": "114x114",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		}
+	]
+}

@@ -1,0 +1,8 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^playtoony.com$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.playtoony.com$
+RewriteCond %{REQUEST_URI} !public/
+RewriteRule (.*) /public/$1 [L]
+AddHandler application/x-httpd-php81 .php .php5 .php4 .php3
+

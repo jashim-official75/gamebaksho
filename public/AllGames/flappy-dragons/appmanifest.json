@@ -1,0 +1,36 @@
+{
+	"name": "Flappy Dragons",
+	"short_name": "Flappy Dragons",
+	"description": "Fly high and dodge obstacles in this addictive dragon adventure. Are you ready to soar through the skies with Flappy Dragons? In this addictive adventure game, you'll take on the role of a brave dragon and navigate through challenging levels, avoiding obstacles and collecting coins along the way. With intuitive controls and beautiful graphics, Flappy Dragons are sure to keep you entertained for hours on end. As you progress through the game, you'll encounter a variety of obstacles that will test your reflexes and timing. From towering trees to rocky outcroppings, you'll need to be quick and agile to dodge them all. But don't worry - with a little practice, you'll soon be flying like a pro. In addition to the main game, Flappy Dragons also feature a range of special challenges and achievements to keep you coming back for more. So why not join the millions of players already enjoying this exciting dragon adventure? Download Flappy Dragons today and start flying high!",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "portrait",
+	"background_color": "#ffffff",
+	"icons": [
+		{
+			"src": "icons/icon-16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-114.png",
+			"sizes": "114x114",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		}
+	]
+}

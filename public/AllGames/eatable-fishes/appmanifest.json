@@ -1,0 +1,36 @@
+{
+	"name": "Eatable Fishes",
+	"short_name": "Eatable Fishes",
+	"description": "Eatable Fishes is a fun, new online game where you must survive by trading and eating fish that are larger than you, or else the other predators in the deep sea will gulp you up! No matter if it's buying a bigger boat to hunt more fish or finding a way to hide from your enemies beneath the gloomy water, there are many challenges to face in order to keep yourself safe as well as feed your stomach. \"Survive\" is an online game – it's free and you don't need to download anything, so just click the image to play! \"Survive\" is a game where you're on an island that's similar to The Hunger Games in the fact that there are many dangers lurking; you have your fish hook and some wooden sticks, aren't they useful ? It could help you survive !",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "any",
+	"background_color": "#ffffff",
+	"icons": [
+		{
+			"src": "icons/icon-16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-114.png",
+			"sizes": "114x114",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		}
+	]
+}

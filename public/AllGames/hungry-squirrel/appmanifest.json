@@ -1,0 +1,36 @@
+{
+	"name": "Hungry Squirrel",
+	"short_name": "Hungry Squirrel",
+	"description": "Hungry squirrel action game! Play now for free. From your computer or any device! - Hungry Squirrel Action Games. Hungry Squirrel Online Action Game: How much can your Squirrel collect in this online action game? Keep an eye out on the map, then jump and glide through the trees! Watch out for those pesky birds! Going at a fast pace will make it much easier to play and get higher scores! Score as high as you can to see how long you last. Hungry Squirrel is a fast-paced arcade game. In the game, the player assumes the role of a squirrel and must run around in circles to gather nuts. The longer you play, the faster your protagonist becomes. This wildly popular mobile game aims to become so agile as to collect consecutively more nuts until you run into obstacles that cause you to fall or hit a wall. On the first day of spring, you're probably as hungry as these squirrels for an adventure against a gang of pesky yeti. So open up that picnic basket and get ready to move!",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "portrait",
+	"background_color": "#ffffff",
+	"icons": [
+		{
+			"src": "icons/icon-16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-114.png",
+			"sizes": "114x114",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		}
+	]
+}

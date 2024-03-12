@@ -1,0 +1,36 @@
+{
+	"name": "Royal Kingdom",
+	"short_name": "Royal Kingdom",
+	"description": "The aim of Royal Kingdom is to be the best platformer online game. With a wide variety of levels, characters and enemies. Looking for a fun and thrilling online game? Look no further than the Royal Kingdom! In this exciting platformer, you'll need to use all your skills to navigate through a variety of challenges. With stunning graphics and addictive gameplay, you'll be hooked for hours on end. So what are you waiting for? Start your adventure today!",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"background_color": "#ffffff",
+	"icons": [
+		{
+			"src": "icons/icon-16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-114.png",
+			"sizes": "114x114",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		}
+	]
+}

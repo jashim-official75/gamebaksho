@@ -1,0 +1,36 @@
+{
+	"name": "Dino Dash",
+	"short_name": "Dino Dash",
+	"description": "Dino Dash Online Arcade Adventure Game is an online game that challenges players to help a baby dinosaur escape from a group of hungry predators. The game features vibrant graphics and simple controls that make it easy for players of all ages to enjoy.",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "portrait",
+	"background_color": "#ffffff",
+	"icons": [
+		{
+			"src": "icons/icon-16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-114.png",
+			"sizes": "114x114",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		}
+	]
+}

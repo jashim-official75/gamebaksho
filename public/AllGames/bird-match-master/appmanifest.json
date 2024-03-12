@@ -1,0 +1,36 @@
+{
+	"name": "Bird Match Master",
+	"short_name": "Bird Match Master",
+	"description": "Bird Match Master is an online puzzle game where you match three birds together. It's a fun and challenging game that you can play with friends or family. Bird MatchMaster is an online game that challenges you to match three or more birds of the same color. The game is perfect for those who love puzzle games and birds! Do you have what it takes to become a Bird Match Master? Find out in this addicting online Match 3 puzzle game! See how long you can last in this fast-paced and challenging game.",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "any",
+	"background_color": "#ffffff",
+	"icons": [
+		{
+			"src": "icons/icon-16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-114.png",
+			"sizes": "114x114",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		}
+	]
+}

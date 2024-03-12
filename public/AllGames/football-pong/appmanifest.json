@@ -1,0 +1,36 @@
+{
+	"name": "Football Pong",
+	"short_name": "Football Pong",
+	"description": "Christmas Pong is an online pong game that is similar to the classic game.  Looking for a fun and festive way to celebrate Christmas this year? Why not try your hand at Christmas Pong, the online pong game that everyone is talking about? With exciting gameplay and beautiful Christmas-themed graphics, Christmas Pong is the perfect way to get into the holiday spirit!",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "portrait",
+	"background_color": "#000000",
+	"icons": [
+		{
+			"src": "icons/icon-16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-114.png",
+			"sizes": "114x114",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		}
+	]
+}

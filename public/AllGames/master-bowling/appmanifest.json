@@ -1,0 +1,36 @@
+{
+	"name": "Master Bowling",
+	"short_name": "Master Bowling",
+	"description": "Bowling Boom is a free online game where you have to knock down as many bowling pins as possible. Bowling Boom Free Online Game is a new online game where you have to be the best bowler on the planet. A challenging, fast-paced and addictively fun free online game awaits you on Bowling Boom! This free online game will get your adrenaline pumping. Play with friends or top scorers worldwide. If you're looking to pass the time, or just want something fun to do during your lunch break, this game might be right up your alley. With online bowling games, you can forget about the hassles of real-world lanes and, in some cases, bowl with people from all over the world.",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "portrait",
+	"background_color": "#ffffff",
+	"icons": [
+		{
+			"src": "icons/64.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/114.png",
+			"sizes": "114x114",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		}
+	]
+}

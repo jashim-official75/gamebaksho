@@ -1,0 +1,36 @@
+{
+	"name": "Angry Bird Jump",
+	"short_name": "Angry Bird Jump",
+	"description": "The \"Angry Bird Jump Adventure Online Game\" is a fun and addicting game that can be played by people of all ages. The object of the game is to help the angry birds jump from one platform to another, avoiding obstacles along the way. There are many different levels to the game, each one more challenging than the last.",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "portrait",
+	"background_color": "#ffffff",
+	"icons": [
+		{
+			"src": "icons/icon-16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-114.png",
+			"sizes": "114x114",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"name": "Mr. Orange Flappy Jump",
+	"short_name": "Mr. Orange Flappy Jump",
+	"description": "Free Flappy Bird Games Online - Real Life Flappy Game Online. Mr. Flappy Fly Online Games - Play Now  Mr. Orange Flappy Jump is an adventure game where you have to control a flappy character named Mr. Orange to successfully pass the obstacles. Mr. Orange is flapping in the breeze with an addictive new Flappy Jump game, which is so easy to learn that anyone can do it. The idea behind this one was inspired by the classic and viral Flappy Bird game in which you must be skilled at and master different techniques.  Mr. Orange Flappy Jump is one of our new games, featuring a whimsical orange character with cute flappy bird ears big enough to help him see, flap, and fly. From tap-to-fly, tap-to-jump, or swipe controls, the action is easy to follow, impossible to stop, and super fun!",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "portrait",
+	"background_color": "#ffffff",
+	"icons": [
+		{
+			"src": "icons/icon-16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-114.png",
+			"sizes": "114x114",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		}
+	]
+}

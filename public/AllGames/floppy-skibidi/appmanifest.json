@@ -1,0 +1,36 @@
+{
+	"name": "Floppy Skibidi",
+	"short_name": "Floppy Skibidi",
+	"description": "In the tough arcade game Floppy Skibidi, you take control of a flying toilet. Your objective is to avoid striking any pipes as you soar through the air between them. As you advance, the pipes will be closer together, making the game harder and harder.",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "portrait",
+	"background_color": "#ffffff",
+	"icons": [
+		{
+			"src": "icons/icon-16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-114.png",
+			"sizes": "114x114",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"name": "Fairyland",
+	"short_name": "Fairyland",
+	"description": "Fairyland is an arcade platformer game that features beautiful graphics and addictive gameplay. Looking for a fun and challenging arcade platformer game? Look no further than fairyland! With its cute and colorful graphics, fairyland is sure to keep you entertained for hours. Plus, its simple controls make it easy to pick up and play. So what are you waiting for? Give fairyland a try today!",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"background_color": "#ffffff",
+	"icons": [
+		{
+			"src": "icons/icon-16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-114.png",
+			"sizes": "114x114",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		}
+	]
+}
