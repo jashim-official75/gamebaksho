@@ -5,16 +5,9 @@ namespace App\Http\Controllers\Frontend;
 use App\Http\Controllers\Controller;
 use App\Models\Backend\Blog;
 use App\Models\Game;
-use App\Models\PurchaseDetail;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
 use App\Models\Frontend\DeviceInfo;
-use App\Models\Subscriber;
-use Illuminate\Support\Facades\View;
 use Jenssegers\Agent\Agent;
-use Illuminate\Support\Facades\Http;
-use Illuminate\Support\Str;
-use App\Models\PurchaseRenew;
 
 class HomeController extends Controller
 {

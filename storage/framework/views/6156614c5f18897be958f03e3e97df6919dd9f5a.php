@@ -1,3 +1,5 @@
+
+
 <?php $__env->startSection('frontend_header'); ?>
     <meta property="og:title" content="Login | Enjoy a Wide Range of Online Games on Xoss Games">
     <meta property="og:description" content="Login | Enjoy a Wide Range of Online Games on Xoss Games">
@@ -14,15 +16,15 @@
     <?php
 if (! isset($_instance)) {
     $html = \Livewire\Livewire::mount('frontend.mobile-login')->html();
-} elseif ($_instance->childHasBeenRendered('ubIkG7o')) {
-    $componentId = $_instance->getRenderedChildComponentId('ubIkG7o');
-    $componentTag = $_instance->getRenderedChildComponentTagName('ubIkG7o');
+} elseif ($_instance->childHasBeenRendered('0ioGu11')) {
+    $componentId = $_instance->getRenderedChildComponentId('0ioGu11');
+    $componentTag = $_instance->getRenderedChildComponentTagName('0ioGu11');
     $html = \Livewire\Livewire::dummyMount($componentId, $componentTag);
-    $_instance->preserveRenderedChild('ubIkG7o');
+    $_instance->preserveRenderedChild('0ioGu11');
 } else {
     $response = \Livewire\Livewire::mount('frontend.mobile-login');
     $html = $response->html();
-    $_instance->logRenderedChild('ubIkG7o', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
+    $_instance->logRenderedChild('0ioGu11', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
 }
 echo $html;
 ?>
