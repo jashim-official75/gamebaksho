@@ -1,1 +1,0 @@
-Score : {{ $game_score }}
