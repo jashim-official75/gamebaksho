@@ -3,8 +3,6 @@
     <section id="header">
         <div class="container">
             <nav class="navbar navbar-expand-lg navber-fixed">
-                {{-- <a class="navbar-brand" href="{{ route('home') }}" aria-label="xoss games logo"><img
-                        src="{{ asset('assets/frontend/img/logo.png') }}" class="logo__img" width="180" height="45" alt="" /></a> --}}
                 <a class="navbar-brand text_logo" href="{{ route('home') }}" aria-label="gamebaksho logo "> GameBaksho </a>
                 <a id="sidebar__toggle--btn" class="sm-hide"><img
                         src="{{ asset('assets/frontend/img/sidebar_toggle.png') }}" alt=""></a>
@@ -16,9 +14,7 @@
                             <a class="nav-link" href="#" data-toggle="modal" data-target="#subscription_pop"><img
                                     src="{{ asset('assets/frontend/img/subscription-package.png') }}" width="35" height="auto" alt="" />
                                 Subscription Plan</a>
-                            {{-- <a class="nav-link" href="#"><img
-                                    src="{{ asset('assets/frontend/img/subscription-package.png') }}" width="35" height="auto" alt="" />
-                                Subscription Plan</a> --}}
+                    
                         </li>
                         @endif
                     </ul>
@@ -31,8 +27,6 @@
                             src="{{ asset('assets/frontend/img/search_icon.png') }}" alt="" />
                         </button>
                     </form>
-
-        
 
                     @if (Auth::guard('subscriber')->check())
                     <div class="header__right">
@@ -57,7 +51,6 @@
             </nav>
 
         </div>
-
 
         <div id="header__sidebar" class="header__sidebar">
             <div class="float-right">
