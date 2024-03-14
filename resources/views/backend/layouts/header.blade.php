@@ -4,7 +4,7 @@
         <!-- Logo -->
         <!-- ============================================================== -->
         <div class="navbar-header">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="#">
                 {{-- <!-- Logo icon --><b>
                     <!-- Dark Logo icon -->
                     <img src="{{ asset('assets/backend/images/xoss_games_popup-logo.png') }}" alt="homepage"
@@ -27,19 +27,17 @@
             <!-- ============================================================== -->
             <ul class="navbar-nav mr-auto mt-md-0">
                 <!-- This is  -->
-                <li class="nav-item"> <a
-                        class="nav-link nav-toggler  text-muted waves-effect waves-dark"
+                <li class="nav-item"> <a class="nav-link nav-toggler  text-muted waves-effect waves-dark"
                         href="javascript:void(0)"><i class="mdi mdi-menu"></i></a> </li>
-                <li class="nav-item m-l-10"> <a
-                        class="nav-link sidebartoggler text-muted waves-effect waves-dark"
+                <li class="nav-item m-l-10"> <a class="nav-link sidebartoggler text-muted waves-effect waves-dark"
                         href="javascript:void(0)"><i class="ti-menu" style="color: #99abb4 !important;"></i></a> </li>
                 <!-- ============================================================== -->
                 <!-- Comment -->
                 <!-- ============================================================== -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-muted  waves-effect waves-dark" href=""
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #99abb4 !important;"> <i
-                            class="mdi mdi-message"></i>
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                        style="color: #99abb4 !important;"> <i class="mdi mdi-message"></i>
                         {{-- @if ($notification->count() > 0)
                             <div class="notify"> <span class="heartbit"></span>
                                 <span class="point"></span>
@@ -73,8 +71,8 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="#" class="nav-link text-center"
-                                    href="javascript:void(0);"> <strong>Check all
+                                <a href="#" class="nav-link text-center" href="javascript:void(0);"> <strong>Check
+                                        all
                                         notifications</strong> <i class="fa fa-angle-right"></i> </a>
                             </li>
                         </ul>
@@ -107,17 +105,22 @@
                 <!-- ============================================================== -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href=""
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img
-                            src="{{ asset('assets/backend/images/xoss_games_popup-logo.png') }}" alt="user"
-                            class="profile-pic" /></a>
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <h4>GameBaksho</h4>
+                        {{-- <img src="{{ asset('assets/backend/images/xoss_games_popup-logo.png') }}" alt="user"
+                            class="profile-pic" /> --}}
+                    </a>
                     <div class="dropdown-menu dropdown-menu-right scale-up">
                         <ul class="dropdown-user">
                             <li>
                                 <div class="dw-user-box">
-                                    <div class="u-img"><img
-                                            src="{{ asset('assets/backend/images/xoss_games_popup-logo.png') }}" alt="user"></div>
+                                    <div class="u-img">
+                                        {{-- <img src="{{ asset('assets/backend/images/xoss_games_popup-logo.png') }}"
+                                            alt="user"> --}}
+                                            <h3>GameBaksho</h3>
+                                    </div>
                                     <div class="u-text">
-                                       
+
                                     </div>
                                 </div>
                             </li>
@@ -134,4 +137,3 @@
         </div>
     </nav>
 </header>
-

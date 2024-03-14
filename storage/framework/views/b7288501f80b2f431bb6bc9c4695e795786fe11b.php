@@ -62,12 +62,6 @@
             </div>
         </div>
         <!-- Column -->
-
-
-
-
-        <!-- Column -->
-        
     </div>
 
     <!---subscriber filter ----------->
@@ -176,125 +170,6 @@
             </div>
         </div>
     </div>
-
-    <!----- today and total renew  --------->
-    <?php if(auth()->user()->Role->slug == 'admin'): ?>
-        <h3>All Renew</h3>
-        <div class="row">
-            <!---Today renew -->
-            <div class="col-md-3">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-12">
-                                <a href="<?php echo e(route('admin.today.renew')); ?>">
-                                    <h3 class=""><?php echo e($todayRenew); ?></h3>
-                                    <h6 class="card-subtitle">Today Renew</h6>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!---Weekly renew -->
-            <div class="col-md-3">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-12">
-                                <a href="<?php echo e(route('admin.weekly.renew')); ?>">
-                                    <h3 class=""><?php echo e($weeklyRenew); ?></h3>
-                                    <h6 class="card-subtitle">Weekly Renew</h6>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!---Monthly renew -->
-            <div class="col-md-3">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-12">
-                                <a href="<?php echo e(route('admin.monthly.renew')); ?>">
-                                    <h3 class=""><?php echo e($monthlyRenew); ?></h3>
-                                    <h6 class="card-subtitle">Monthly Renew</h6>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!---Total renew -->
-            <div class="col-md-3">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-12">
-                                <a href="<?php echo e(route('admin.total.renew')); ?>">
-                                    <h3 class=""><?php echo e($totalRenew); ?></h3>
-                                    <h6 class="card-subtitle">Total Renew</h6>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    <?php endif; ?>
-
-        <!-----renew --------->
-    <?php if(auth()->user()->Role->slug == 'admin'): ?>
-        <div class="das_renew">
-            <div class="das_renew_head">
-                <h3>Renew</h3>
-            </div>
-
-            <div class="renew_body">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-header">
-                                <h3>Time : 8.00 AM</h3>
-                            </div>
-                            <div class="card-body">
-                                <a name="<?php echo e(route('admin.renew')); ?>"
-                                    class="btn btn-primary text-white renew_confirm">Renew</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-header">
-                                <h3>Time : 1.00 PM</h3>
-                            </div>
-                            <div class="card-body">
-                                <a name="<?php echo e(route('admin.renew')); ?>"
-                                    class="btn btn-primary text-white renew_confirm">Renew</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-header">
-                                <h3>Time : 3.00 PM</h3>
-                            </div>
-                            <div class="card-body">
-                                <a name="<?php echo e(route('admin.renew')); ?>"
-                                    class="btn btn-primary text-white renew_confirm">Renew</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    <?php endif; ?>
-    <!-- ============================================================== -->
     <!-- End PAge Content -->
 <?php $__env->stopSection(); ?>
 

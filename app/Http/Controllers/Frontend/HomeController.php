@@ -11,16 +11,6 @@ use Jenssegers\Agent\Agent;
 
 class HomeController extends Controller
 {
-   public function test_code()
-    {
-        
-    }
-
-     public function api_test()
-    {
-        
-    }
-
     public function home(Request $request)
     {   
         $others_traffic = NULL;

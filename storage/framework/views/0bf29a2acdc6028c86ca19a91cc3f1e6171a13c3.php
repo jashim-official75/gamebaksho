@@ -6,13 +6,14 @@
             <!-- User profile image -->
             <div class="profile-img">
                 <a href="<?php echo e(route('home')); ?>" target="_blank">
-                    <img src="<?php echo e(asset('assets/backend/images/xoss_games_popup-logo.png')); ?>" alt="user" />
+                    
+                    <h4>GameBaksho</h4>
 
                 </a>
             </div>
             <!-- User profile text-->
             <div class="profile-text">
-                <h5><?php echo e(auth()->user()->name); ?></h5>
+                <h5><?php echo e(auth()->user()->name); ?></h5> 
                 
                 <a href="<?php echo e(route('admin.logout')); ?>" class="" data-toggle="tooltip" title="Logout"><i
                         class="mdi mdi-power"></i></a>
@@ -88,25 +89,6 @@
                     </li>
 
                     <!---games start----->
-
-
-                    <!---tournamnent ---->
-                    <li class=""><a href="#"><i
-                                class="mdi mdi-gamepad-variant"></i><span>Tournamnent</span>&nbsp;&nbsp;&nbsp;<i
-                                class="mdi mdi-chevron-down"></i></a>
-                        <ul>
-                            <li> <a class="waves-effect waves-dark" href="<?php echo e(route('tournament.game.add')); ?>" aria-expanded="false"><i
-                                        class="mdi mdi-gamepad-variant"></i>&nbsp;&nbsp;<span class="hide-menu">Add Game
-                                    </span></a>
-                            </li>
-
-                            <li> <a class="waves-effect waves-dark" href="<?php echo e(route('tournament.game.index')); ?>" aria-expanded="false"><i
-                                        class="mdi mdi-gamepad-variant"></i>&nbsp;&nbsp;<span class="hide-menu">All Game
-                                    </span></a>
-                            </li>
-                        </ul>
-                    </li>
-                    <!---tournamnentend---->
 
                     <!---bloogs start----->
                     <li> <a class="waves-effect waves-dark" href="<?php echo e(route('admin.blogs')); ?>" aria-expanded="false"><i

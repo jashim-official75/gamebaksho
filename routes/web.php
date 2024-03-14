@@ -16,9 +16,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::group(['middleware' => 'checkSubscription'], function () {
     Route::get('/', [HomeController::class, 'home'])->name('home');
-    Route::get('/test_code', [HomeController::class, 'test_code'])->name('test_code');
-    Route::get('/api_test', [HomeController::class, 'api_test'])->name('homapi_teste');
-    Route::get('/after-subscription', [FrontendController::class, 'afterSubscription'])->name('afterSubscription');
     Route::get('/contact', [ContactController::class, 'contact'])->name('contact');
     Route::get('/support', [FrontendSupportController::class, 'support'])->name('support');
     Route::post('/support/store', [FrontendSupportController::class, 'support_store'])->name('support.store');
@@ -33,9 +30,7 @@ Route::group(['middleware' => 'checkSubscription'], function () {
 
     Route::get('/login', [MobilePagesController::class, 'login'])->name('user.login')->middleware('logincheck');
 
-    // Route::get('/registration', [MobilePagesController::class, 'registration'])->name('user.registration');
     Route::get('/profile', [MobilePagesController::class, 'profile'])->name('user.profile');
-    Route::get('/profile-এ', [MobilePagesController::class, 'profiles'])->name('user.profiles');
     Route::get('/packages', [MobilePagesController::class, 'packages'])->name('user.packages');
     Route::get('/logout', [FrontendController::class, 'logout'])->name('logout');
     Route::get('/process-subscription/{plan}', [SubscriptionProcessController::class, 'processSubscription']);
@@ -52,7 +47,6 @@ Route::group(['middleware' => 'checkSubscription'], function () {
     Route::get('/games/{gameName}/play', [GamePlayController::class, 'gamePlay'])->name('game');
     Route::group(['middleware' => 'subscriber'], function () {
         Route::get('/game-details/{game}', [GamePlayController::class, 'gameDetails'])->name('gameDetails');
-        // Route::get('/games/{gameName}/play', [GamePlayController::class, 'gamePlay'])->name('game');
         Route::get('/games/{gameName}/desk', [GamePlayController::class, 'desktopGamePlay'])->name('deskGame');
         Route::get('/unsubscribe', [FrontendController::class, 'unsubscribe'])->name('unsubscribe');
     });

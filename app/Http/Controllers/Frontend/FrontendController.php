@@ -15,11 +15,7 @@ class FrontendController extends Controller
     public function home(){
         return view('frontend/pages/home');
     }
-
-    public function afterSubscription(){
-        return view('frontend/pages/afterSubscription');
-    }
-
+    
     public function gamePlay(){
         return view('frontend/pages/gameplay');
     }

@@ -13,7 +13,6 @@ use App\Http\Controllers\Backend\RegisterController as BackendRegisterController
 use App\Http\Controllers\Backend\RoleController;
 use App\Http\Controllers\Backend\SubscriptionCountController;
 use App\Http\Controllers\Backend\SupportController;
-use App\Http\Controllers\Backend\TournamentGameController;
 use App\Http\Controllers\Backend\TrafficController;
 use App\Http\Controllers\Backend\RenewController;
 
@@ -79,12 +78,4 @@ Route::group(['prefix' => '/admin', 'middleware' => 'auth'], function () {
 
     //---role--
     Route::get('/role', [RoleController::class, 'index'])->name('role.index')->middleware('viewer');
-
-    //---tournament----
-    Route::get('/tournament/index', [TournamentGameController::class, 'index'])->name('tournament.game.index')->middleware('viewer');
-    Route::get('/tournament/add', [TournamentGameController::class, 'create'])->name('tournament.game.add')->middleware('viewer');
-    Route::post('/tournament/store', [TournamentGameController::class, 'store'])->name('tournament.game.store')->middleware('viewer');
-    Route::get('/tournament/edit/{id}', [TournamentGameController::class, 'edit'])->name('tournament.game.edit')->middleware('viewer');
-    Route::post('/tournament/update/{id}', [TournamentGameController::class, 'update'])->name('tournament.game.update')->middleware('viewer');
-    Route::delete('/tournament/delete/{id}', [TournamentGameController::class, 'delete'])->name('tournament.game.destroy')->middleware('viewer');
 });

@@ -44,7 +44,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/frontend/img/favicon.png') }}">
-    <title>XossGame | Play Exclusive Games</title>
+    <title>GameBaksho | Play Exclusive Games</title>
     <!-- Bootstrap Core CSS -->
     <link href="{{ asset('/assets/backend/plugins/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
     <!-- Toaster -->
